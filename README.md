@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is my implementation of the String Calculator Kata built with React + TypeScript + Tailwind CSS.
+This project is my implementation of the String Calculator built with React + TypeScript + Tailwind CSS.
 It follows Test-Driven Development (TDD) principles and focuses heavily on accessibility (a11y) best practices.
 
 - **The goal of this project is to:**
@@ -14,7 +14,7 @@ It follows Test-Driven Development (TDD) principles and focuses heavily on acces
 
 - **src/**
   - `App.tsx`: Redesigned and accessible React component for the calculator UI.
-  - `stringCalculator.ts`: ore String Calculator logic implementation (comma and newline support) .
+  - `stringCalculator.ts`: Core String Calculator logic implementation (comma and newline support) .
 - **tests/**
   - `stringCalculator.test.ts`: Unit test suite for calculator functionality, built with Vitest.
 
@@ -30,22 +30,19 @@ It follows Test-Driven Development (TDD) principles and focuses heavily on acces
 - Fully tested with Vitest unit tests.
 
 - **Accessibility Improvements**
-
-- Semantic HTML structure with <form>, <label>, <button>, and <output>.
-- Proper ARIA roles (role="alert", aria-live="polite") for errors and results.
-- Full keyboard navigation support.
-- Color contrast and focus states improved for visually impaired users.
-- Screen reader-friendly messaging.
+   - Semantic HTML structure with `<form>`, `<label>`, `<button>`, and `<output>`.
+   - Proper ARIA roles (role="alert", aria-live="polite") for errors and results.
+   - Full keyboard navigation support.
+   - Color contrast and focus states improved for visually impaired users.
+   - Screen reader-friendly messaging.
 
 - **UI Enhancements**
-
-- Redesigned with Tailwind CSS for a modern and clean interface.
-- Responsive and mobile-friendly design.
-- Improved user experience with placeholders, hints, and visual feedback.
+   - Redesigned with Tailwind CSS for a modern and clean interface.
+   - Responsive and mobile-friendly design.
+   - Improved user experience with placeholders, hints, and visual feedback.
 
 - **TDD Workflow**
-
-- This project was developed using the Red → Green → Refactor cycle:
+  This project was developed using the Red → Green → Refactor cycle:
    - Red: Write a failing test for a small piece of functionality.
    - Green: Write the minimal production code to make the test pass.
    - Refactor: Improve the code and repeat the cycle.
