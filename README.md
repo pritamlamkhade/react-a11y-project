@@ -6,9 +6,9 @@ This project is my implementation of the String Calculator built with React + Ty
 It follows Test-Driven Development (TDD) principles and focuses heavily on accessibility (a11y) best practices.
 
 - **The goal of this project is to:**
-- Implement the functionality of a String Calculator following TDD practices.
-- Improve and enhance UI accessibility for keyboard users and screen readers.
-- Deliver a clean, responsive, and modern React frontend with Tailwind CSS
+   - Implement the functionality of a String Calculator following TDD practices.
+   - Improve and enhance UI accessibility for keyboard users and screen readers.
+   - Deliver a clean, responsive, and modern React frontend with Tailwind CSS
 
 ## Project Structure
 
@@ -22,12 +22,11 @@ It follows Test-Driven Development (TDD) principles and focuses heavily on acces
 ## Features Implemented
 
 - **String Calculator Logic**
-
-- Handles numbers separated by commas (,) or newlines (\n).
-- Returns 0 for empty strings.
-- Throws a descriptive error when negative numbers are provided.
-- Validates input and rejects invalid characters.
-- Fully tested with Vitest unit tests.
+   - Handles numbers separated by commas (,) or newlines (\n).
+   - Returns 0 for empty strings.
+   - Throws a descriptive error when negative numbers are provided.
+   - Validates input and rejects invalid characters.
+   - Fully tested with Vitest unit tests.
 
 - **Accessibility Improvements**
    - Semantic HTML structure with `<form>`, `<label>`, `<button>`, and `<output>`.
@@ -80,4 +79,4 @@ Unit tests are located in:
    ```
 
 
-## Live Demo (Optional)
+## Live Demo
